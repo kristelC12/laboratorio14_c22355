@@ -3,6 +3,15 @@ const fs = require('fs');
 
 const db = new sqlite3.Database('./discostore.db');
 
+function generarSlug(texto) {
+    return texto
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+}
+
 db.serialize(() => {
 
     db.run(`
@@ -24,18 +33,19 @@ db.serialize(() => {
         "SELECT COUNT(*) AS total FROM albumes",
         (err,row)=>{
 
-            if(row.total === 0){
+            if(err || !row || row.total === 0){
 
                 const albumes = JSON.parse(
-                    fs.readFileSync('./data/albumes.json')
+                    fs.readFileSync('./data/albumes.json', 'utf8')
                 );
 
                 albumes.forEach(album=>{
+                    const slug = generarSlug(album.titulo);
 
                     db.run(
                         `INSERT INTO albumes VALUES(?,?,?,?,?,?,?,?,?,?)`,
                         [
-                            album.slug,
+                            slug,
                             album.titulo,
                             album.artista,
                             album.genero,
