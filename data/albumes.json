@@ -6,7 +6,7 @@
     "anio": 1982,
     "sello": "Epic",
     "pistas": 9,
-    "imagen": "thriller.avif",
+    "imagen": "Thriller",
     "slug": "thriller",
     "resumen": "El album mas vendido de la historia.",
     "descripcion": "Album de Michael Jackson que redefinio la musica pop de los anos 80."
@@ -18,7 +18,7 @@
     "anio": 1980,
     "sello": "Atlantic",
     "pistas": 10,
-    "imagen": "back-in-black.avif",
+    "imagen": "Back in Black",
     "slug": "back-in-black",
     "resumen": "Uno de los discos de rock mas vendidos.",
     "descripcion": "Album clasico de hard rock."
@@ -30,7 +30,7 @@
     "anio": 1969,
     "sello": "Apple",
     "pistas": 17,
-    "imagen": "abbey-road.avif",
+    "imagen": "Abbey Road",
     "slug": "abbey-road",
     "resumen": "Ultimo album grabado por The Beatles.",
     "descripcion": "Obra maestra del rock britanico."
@@ -42,7 +42,7 @@
     "anio": 1991,
     "sello": "DGC",
     "pistas": 13,
-    "imagen": "nevermind.avif",
+    "imagen": "Nevermind",
     "slug": "nevermind",
     "resumen": "Album iconico del grunge.",
     "descripcion": "Impulso la popularidad del grunge."
@@ -54,7 +54,7 @@
     "anio": 1976,
     "sello": "Asylum",
     "pistas": 9,
-    "imagen": "hotel-california.avif",
+    "imagen": "Hotel California",
     "slug": "hotel-california",
     "resumen": "Album legendario del rock.",
     "descripcion": "Incluye la famosa cancion Hotel California."
@@ -66,7 +66,7 @@
     "anio": 1973,
     "sello": "Harvest",
     "pistas": 10,
-    "imagen": "dark-side.avif",
+    "imagen": "The Dark Side of the Moon",
     "slug": "dark-side",
     "resumen": "Uno de los discos mas influyentes.",
     "descripcion": "Album conceptual de Pink Floyd."

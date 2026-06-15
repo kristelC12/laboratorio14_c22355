@@ -55,7 +55,7 @@ Si quieres reiniciar la carga, borra `discostore.db` y vuelve a iniciar el servi
   "anio": 1982,
   "sello": "Epic",
   "pistas": 9,
-  "imagen": "thriller.avif",
+  "imagen": "Thriller",
   "slug": "thriller",
   "resumen": "El album mas vendido de la historia.",
   "descripcion": "Album de Michael Jackson que redefinio la musica pop de los anos 80."
